@@ -1,4 +1,4 @@
-The file jsr223-api.jar was taken from the Phobos CVS repository on March 14 2009:
+The file java.scripting.jar was taken from the Phobos CVS repository on March 14 2009:
 
 https://phobos.dev.java.net/source/browse/*checkout*/phobos/phobos/lib/jsr223-api.jar
 
@@ -13,5 +13,3 @@ Note that the reference implementation available at JCP is only a partial implem
 of the JSR. For reference, it is available here:
 
 http://jcp.org/aboutJava/communityprocess/pr/jsr223/
-
--Tal Liron

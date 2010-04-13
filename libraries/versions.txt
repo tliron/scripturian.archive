@@ -1,4 +1,4 @@
-clojure				1.0.0
+clojure				1.1.0
 jruby				1.5.0 (Revision Thu Apr 8 15:26:16 2010 -0500)
 jsr-223				?
 jygments			1.0 (Revision 16)

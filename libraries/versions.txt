@@ -1,7 +1,7 @@
 clojure				1.1.0
-groovy				1.7.2
+groovy				1.7.4
 jepp				2.4
-jruby				1.5.0 (Revision Thu Apr 8 15:26:16 2010 -0500)
+jruby				1.5.1
 jsr-223				?
 jygments			1.0 (Revision 16)
 jython				2.5.2 (Revision 6980)

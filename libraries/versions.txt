@@ -1,4 +1,4 @@
-clojure				1.1.0
+clojure				1.2.0
 groovy				1.7.4
 jepp				2.4
 jruby				1.5.1

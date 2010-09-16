@@ -1,4 +1,5 @@
 clojure				1.2.0
+commons-daemon		1.0.3
 groovy				1.7.4
 jepp				2.4
 jruby				1.5.1

@@ -5,7 +5,7 @@ jepp				2.4
 jruby				1.5.6
 jsr-223				?
 jygments			1.0 (Revision 16)
-jython				2.5.2 RC2
+jython				2.5.2
 quercus				4.0.11
 rhino				1.7R2
 succinct			1.0 (Revision 21)

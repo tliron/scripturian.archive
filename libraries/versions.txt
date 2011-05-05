@@ -2,7 +2,7 @@ clojure				1.2.0
 commons-daemon		1.0.3
 groovy				1.7.5
 jepp				2.4
-jruby				1.6.0
+jruby				1.6.1
 jsr-223				?
 jygments			1.0 (Revision 16)
 jython				2.5.2

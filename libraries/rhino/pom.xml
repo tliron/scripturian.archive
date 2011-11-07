@@ -3,14 +3,15 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>threecrickets</groupId>
-	<artifactId>language-rhino</artifactId>
+	<groupId>com.threecrickets.scripturian</groupId>
+	<artifactId>org.mozilla.javascript</artifactId>
 	<version>1.7R2</version>
 	<packaging>pom</packaging>
 
 	<name>Rhino</name>
 	<description>The Rhino language engine for JavaScript.</description>
 	<url>http://www.mozilla.org/rhino/</url>
+
 	<scm>
 		<connection>scm:git:git://github.com/mozilla/rhino.git</connection>
 		<url>https://github.com/mozilla/rhino</url>
@@ -18,7 +19,7 @@
 
 	<licenses>
 		<license>
-			<name>Mozilla Public License</name>
+			<name>Mozilla Public License, Version 1.1</name>
 			<url>http://www.mozilla.org/MPL/MPL-1.1.html</url>
 			<distribution>repo</distribution>
 		</license>

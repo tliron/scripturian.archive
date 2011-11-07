@@ -4,22 +4,23 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.threecrickets.scripturian</groupId>
-	<artifactId>com.caucho.quercus</artifactId>
-	<version>4.0.18</version>
+	<artifactId>org.apache.velocity</artifactId>
+	<version>1.7</version>
 	<packaging>pom</packaging>
 
-	<name>Quercus</name>
-	<description>The Quercus language engine for PHP.</description>
-	<url>http://quercus.caucho.com/</url>
+	<name>Velocity</name>
+	<description>The Velocity language engine.</description>
+	<url>https://velocity.apache.org</url>
 
 	<scm>
-		<connection>scm:svn://svn.caucho.com/resin/trunk/modules/quercus</connection>
+		<connection>scm:svn:http://svn.apache.org/repos/asf/velocity/engine/trunk/</connection>
+		<url>http://svn.apache.org/viewvc/velocity/engine/trunk</url>
 	</scm>
 
 	<licenses>
 		<license>
-			<name>GNU General Public License, Version 2.0</name>
-			<url>https://www.gnu.org/licenses/old-licenses/gpl-2.0.html</url>
+			<name>The Apache Software License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
 			<distribution>repo</distribution>
 		</license>
 	</licenses>
@@ -51,7 +52,7 @@
 							<artifacts>
 								<artifact>
 									<type>jar</type>
-									<file>lib/com.caucho.quercus.jar</file>
+									<file>lib/org.apache.velocity.jar</file>
 								</artifact>
 							</artifacts>
 						</configuration>

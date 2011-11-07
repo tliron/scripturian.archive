@@ -3,24 +3,24 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>threecrickets</groupId>
-	<artifactId>language-clojure</artifactId>
+	<groupId>com.threecrickets.scripturian</groupId>
+	<artifactId>clojure</artifactId>
 	<version>1.3.0</version>
 	<packaging>pom</packaging>
 
 	<name>Clojure</name>
 	<description>The Clojure language engine.</description>
 	<url>http://clojure.org/</url>
+
 	<scm>
-		<connection>scm:git:git@github.com:clojure/clojure.git</connection>
-		<developerConnection>scm:git:git@github.com:clojure/clojure.git</developerConnection>
-		<url>git@github.com:clojure/clojure.git</url>
+		<connection>scm:git:git://github.com/clojure/clojure.git</connection>
+		<url>http://github.com/clojure/clojure</url>
 	</scm>
 
 	<licenses>
 		<license>
-			<name>Eclipse Public License 1.0</name>
-			<url>http://opensource.org/licenses/eclipse-1.0.php</url>
+			<name>Eclipse Public License, Version 1.0</name>
+			<url>http://www.eclipse.org/legal/epl-v10.html</url>
 			<distribution>repo</distribution>
 		</license>
 	</licenses>

@@ -3,14 +3,15 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>threecrickets</groupId>
-	<artifactId>language-jython</artifactId>
+	<groupId>com.threecrickets.scripturian</groupId>
+	<artifactId>org.python</artifactId>
 	<version>2.5.2</version>
 	<packaging>pom</packaging>
 
 	<name>Jython</name>
 	<description>The Jython language engine for Python.</description>
 	<url>http://www.jython.org/</url>
+
 	<scm>
 		<connection>scm:hg:http://hg.python.org/jython</connection>
 		<url>http://hg.python.org/jython</url>

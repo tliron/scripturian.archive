@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>threecrickets</groupId>
+	<artifactId>language-jython</artifactId>
+	<version>2.5.2</version>
+	<packaging>pom</packaging>
+
+	<name>Jython</name>
+	<description>The Jython language engine for Python.</description>
+	<url>http://www.jython.org/</url>
+	<scm>
+		<connection>scm:hg:http://hg.python.org/jython</connection>
+		<url>http://hg.python.org/jython</url>
+	</scm>
+
+	<licenses>
+		<license>
+			<name>Jython Software License</name>
+			<url>http://www.jython.org/license.html</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+
+	<distributionManagement>
+		<repository>
+			<id>sincerity</id>
+			<url>http://localhost:8081/nexus/content/repositories/sincerity/</url>
+		</repository>
+	</distributionManagement>
+
+	<build>
+		<directory>maven</directory>
+
+		<plugins>
+			<!-- jar artifact -->
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>build-helper-maven-plugin</artifactId>
+				<version>1.7</version>
+				<executions>
+					<execution>
+						<id>jar</id>
+						<phase>package</phase>
+						<goals>
+							<goal>attach-artifact</goal>
+						</goals>
+						<configuration>
+							<artifacts>
+								<artifact>
+									<type>jar</type>
+									<file>lib/org.python.jar</file>
+								</artifact>
+							</artifacts>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+
+		</plugins>
+	</build>
+
+</project>

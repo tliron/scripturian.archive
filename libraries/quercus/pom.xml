@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>threecrickets</groupId>
+	<artifactId>language-quercus</artifactId>
+	<version>4.0.18</version>
+	<packaging>pom</packaging>
+
+	<name>Quercus</name>
+	<description>The Quercus language engine for PHP.</description>
+	<url>http://quercus.caucho.com/</url>
+	<scm>
+		<connection>scm:svn://svn.caucho.com/resin/trunk/modules/quercus</connection>
+	</scm>
+
+	<licenses>
+		<license>
+			<name>GPL 2.0 license</name>
+			<url>http://www.opensource.org/licenses/GPL-2.0</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+
+	<distributionManagement>
+		<repository>
+			<id>sincerity</id>
+			<url>http://localhost:8081/nexus/content/repositories/sincerity/</url>
+		</repository>
+	</distributionManagement>
+
+	<build>
+		<directory>maven</directory>
+
+		<plugins>
+			<!-- jar artifact -->
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>build-helper-maven-plugin</artifactId>
+				<version>1.7</version>
+				<executions>
+					<execution>
+						<id>jar</id>
+						<phase>package</phase>
+						<goals>
+							<goal>attach-artifact</goal>
+						</goals>
+						<configuration>
+							<artifacts>
+								<artifact>
+									<type>jar</type>
+									<file>lib/com.caucho.quercus.jar</file>
+								</artifact>
+							</artifacts>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+
+		</plugins>
+	</build>
+
+</project>

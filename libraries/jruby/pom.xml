@@ -5,7 +5,7 @@
 
 	<groupId>org.jruby</groupId>
 	<artifactId>jruby-standalone</artifactId>
-	<version>1.6.3</version>
+	<version>1.6.5</version>
 	<packaging>pom</packaging>
 
 	<name>JRuby</name>

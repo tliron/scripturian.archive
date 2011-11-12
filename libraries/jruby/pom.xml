@@ -3,8 +3,8 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.threecrickets.scripturian</groupId>
-	<artifactId>org.jruby</artifactId>
+	<groupId>org.jruby</groupId>
+	<artifactId>jruby-standalone</artifactId>
 	<version>1.6.3</version>
 	<packaging>pom</packaging>
 
@@ -43,8 +43,6 @@
 	</distributionManagement>
 
 	<build>
-		<directory>maven</directory>
-
 		<plugins>
 			<!-- jar artifact -->
 			<plugin>

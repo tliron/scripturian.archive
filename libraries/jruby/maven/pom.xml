@@ -60,7 +60,7 @@
 							<artifacts>
 								<artifact>
 									<type>jar</type>
-									<file>lib/org.jruby.jar</file>
+									<file>../lib/org.jruby.jar</file>
 								</artifact>
 							</artifacts>
 						</configuration>

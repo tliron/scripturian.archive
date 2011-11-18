@@ -57,7 +57,7 @@
 							<artifacts>
 								<artifact>
 									<type>jar</type>
-									<file>lib/com.caucho.quercus.jar</file>
+									<file>../lib/com.caucho.quercus.jar</file>
 								</artifact>
 							</artifacts>
 						</configuration>

@@ -3,24 +3,24 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>org.mozilla</groupId>
-	<artifactId>rhino</artifactId>
-	<version>1.7R2</version>
+	<groupId>org.codehaus.groovy</groupId>
+	<artifactId>groovy</artifactId>
+	<version>1.8.1</version>
 	<packaging>pom</packaging>
 
-	<name>Rhino</name>
-	<description>The Rhino language engine for JavaScript.</description>
-	<url>http://www.mozilla.org/rhino/</url>
+	<name>Groovy</name>
+	<description>The Groovy language engine.</description>
+	<url>http://groovy.codehaus.org/</url>
 
 	<scm>
-		<connection>scm:git:git://github.com/mozilla/rhino.git</connection>
-		<url>https://github.com/mozilla/rhino</url>
+		<connection>scm:svn:http://svn.groovy.codehaus.org/browse/groovy/trunk/groovy/groovy-core</connection>
+		<url>http://svn.groovy.codehaus.org/browse/groovy/trunk/groovy/groovy-core</url>
 	</scm>
 
 	<licenses>
 		<license>
-			<name>Mozilla Public License, Version 1.1</name>
-			<url>http://www.mozilla.org/MPL/MPL-1.1.html</url>
+			<name>The Apache Software License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
 			<distribution>repo</distribution>
 		</license>
 	</licenses>
@@ -50,7 +50,7 @@
 							<artifacts>
 								<artifact>
 									<type>jar</type>
-									<file>lib/org.mozilla.javascript.jar</file>
+									<file>../lib/org.codehaus.groovy.jar</file>
 								</artifact>
 							</artifacts>
 						</configuration>

@@ -5,7 +5,7 @@
 
 	<groupId>org.mozilla</groupId>
 	<artifactId>rhino</artifactId>
-	<version>1.7R2</version>
+	<version>1.7R3</version>
 	<packaging>pom</packaging>
 
 	<name>Rhino</name>

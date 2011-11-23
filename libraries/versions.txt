@@ -7,6 +7,6 @@ jsr-223				?
 jygments			1.0 (Revision 16)
 jython				2.5.2
 quercus				4.0.18
-rhino				1.7R2
+rhino				1.7R3
 succinct			1.0 (Revision 21)
 velocity			1.7
